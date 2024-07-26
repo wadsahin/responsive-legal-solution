@@ -66,8 +66,11 @@ nav {
   padding: 15px;
   color: rgb(124, 122, 122);
   font-weight: 600;
+  font-size: 1.1rem;
 }
-
+.nav-items-list i {
+  font-size: 0.9rem;
+}
 .nav-btn {
   padding: 15px 20px;
   border-radius: 8px;
@@ -196,10 +199,10 @@ nav {
   gap: 20px;
 }
 .faq-card{
-  padding: 20px 30px;
+  padding: 25px 30px;
   background-color: rgba(220, 220, 220, 0.63);
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .faq-card-heading{
   justify-content: space-between;
@@ -208,7 +211,6 @@ nav {
 .faq-card-heading h3{
   font-weight: 600;
   color:rgb(92, 91, 91)
-
 }
 
 .faq-cards-column {
@@ -217,13 +219,7 @@ nav {
 .faq-img-column {
   width: 50%;
 }
-#operator{
-  font-size: 2rem;
-}
 /* Contact us section styles */
-.contact-us{
-
-}
 .contact-us-container{
   margin: 40px 0px;
   gap: 25px;
