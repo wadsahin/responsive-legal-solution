@@ -1,0 +1,326 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header,
+main section {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+section {
+  margin: 40px 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Shared or Common styles */
+.d-flex {
+  display: flex;
+}
+
+.margin-x-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.margin-x-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.margin-b-20 {
+  margin-bottom: 20px;
+}
+
+.margin-b-15 {
+  margin-bottom: 15px;
+}
+
+/* ............All styles............ */
+/* header & nav styles */
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.nav-items-list {
+  align-items: center;
+}
+
+.nav-items-list a {
+  padding: 15px;
+  color: rgb(124, 122, 122);
+  font-weight: 600;
+}
+
+.nav-btn {
+  padding: 15px 20px;
+  border-radius: 8px;
+  background-color: rgba(209, 161, 3, 0.993);
+}
+
+.nav-btn a {
+  color: white;
+  font-weight: 500;
+}
+
+/* hero section styles */
+.hero-section {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 80px 170px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.h-section-title {
+  color: white;
+  font-size: 4rem;
+}
+
+.h-section-desc {
+  color: white;
+  line-height: 1.5rem;
+}
+
+.search-option {
+  padding-top: 15px;
+}
+
+.search-option #search-box {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 15px;
+  width: 30vw;
+}
+
+.search-option #search-btn {
+  padding: 14px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: rgba(209, 161, 3, 0.993);
+}
+
+/* Laws section styles */
+.laws-section {
+  margin: 50px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-header {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.section-desc {
+  margin-bottom: 15px;
+}
+
+.laws-card-container {
+  margin: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.law-card {
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.law-card-heading {
+  font-size: 1.6rem;
+}
+
+.law-card-desc {
+  color: rgb(90, 88, 88);
+}
+
+/* card's border setup */
+.L-card-1 {
+  border-right: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+
+.L-card-2 {
+  border: 1px solid gainsboro;
+  background-color: rgba(233, 227, 227, 0.274);
+}
+
+.L-card-3 {
+  border-left: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+
+.L-card-5 {
+  border-top: 1px solid gainsboro;
+  border-left: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+}
+
+/* faq section styles */
+.faq-container {
+  margin: 40px 0px;
+  justify-content: center;
+  gap: 20px;
+}
+.faq-card{
+  padding: 20px 30px;
+  background-color: rgba(220, 220, 220, 0.63);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.faq-card-heading{
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-card-heading h3{
+  font-weight: 600;
+  color:rgb(92, 91, 91)
+
+}
+
+.faq-cards-column {
+  width: 50%;
+}
+.faq-img-column {
+  width: 50%;
+}
+#operator{
+  font-size: 2rem;
+}
+/* Contact us section styles */
+.contact-us{
+
+}
+.contact-us-container{
+  margin: 40px 0px;
+  gap: 25px;
+  justify-content: center;
+}
+.contact-us-info-column{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contact-info-card{
+  background-color: rgba(220, 220, 220, 0.26);
+  text-align: center;
+  padding: 40px;
+}
+.contact-info-card p{
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.info-card-1{
+  border-right: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+.info-card-2{
+  border-bottom: 1px solid gainsboro;
+}
+.info-card-3{
+  border-right: 1px solid gainsboro;
+}
+.contact-us-info-column{
+  width: 50%;
+}
+.contact-us-form-column{
+  width: 50%;
+}
+.contact-form{
+  flex-direction: column;
+  gap: 25px ;
+}
+.contact-form input, textarea{
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(220, 220, 220, 0.26);
+}
+.contact-form input[type="submit"]{
+  background-color: rgba(209, 161, 3, 0.993);
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+}
+/* footer styles.. */
+footer{
+  background-color: black;
+  padding: 70px 0px;
+}
+.footer-container{
+  max-width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 20px;
+
+}
+.footer-container p, a{
+  color: rgb(170, 167, 167);
+}
+.footer-column{
+  padding: 20px;
+}
+.footer-col-title{
+  color: white;
+  font-size: 1.5rem;
+}
+.footer-link li{
+  padding-bottom: 15px;
+}
+
+.footer-form input[type="email"]{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 15px;
+  border: none;
+}
+.footer-form input[type="submit"]{
+  padding: 15px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgba(209, 161, 3, 0.993);
+  color: white;
+  font-weight: 600;
+}
+
+/* The end all styles */
+
+.hide {
+  display: none;
+}

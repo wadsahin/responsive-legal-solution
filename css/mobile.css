@@ -1,0 +1,113 @@
+@media screen and (max-width: 576px) {
+
+  /* Universal Styles */
+  header,
+  main section {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* nav style */
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .nav-items-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-items-list a {
+    font-size: 1.5rem;
+    padding: 0px;
+  }
+
+  /* hero section styles */
+  .hero-section {
+    padding: 80px 20px;
+  }
+
+  .search-option #search-box {
+    margin-right: 10px;
+    width: 60vw;
+  }
+
+  .search-option #search-btn {
+    padding: 14px 20px;
+  }
+
+  /* Laws section styles */
+  .laws-section {
+    margin-top: 5px;
+  }
+
+  .section-header {
+    width: 90%;
+  }
+
+  .laws-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .law-card {
+    padding: 30px 20px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+  }
+
+  /* faq section styles */
+  .faq-container {
+    flex-direction: column-reverse;
+  }
+
+  .faq-cards-column {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .faq-img-column {
+    width: 90%;
+  }
+
+  .faq-img-column img {
+    width: 100%;
+  }
+
+  /* Contact us section styles */
+  .contact-us {
+    width: 95%;
+  }
+
+  .contact-us-container {
+    flex-direction: column;
+  }
+
+  .contact-us-info-column {
+    width: 100%;
+  }
+
+  .contact-us-form-column {
+    width: 100%;
+  }
+
+  .contact-info-card {
+    padding: 40px 15px;
+
+  }
+
+  /* footer styles */
+  footer{
+    padding: 30px 0px;
+  }
+  .footer-container {
+    max-width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: start;
+    gap: 5px;
+
+  }
+
+}
